@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FormulirPendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Cek Kesehatan</h1>
+    <p>Formulir ini bertujuan untuk mendaftarkan anda untuk mengecek kesehatan anda di sekolah</p>
+    <p>Pengecekan ini bersifat gratis dan tidak akan dikenakan biaya</p>
+    <style>
+        table{
+            border: 5px black;
+            border-style: double;
+            width: 400px;
+            height: 400px;
+            border-color: aliceblue;
+            background-color: aquamarine;
+            opacity: 0.98;
+            }
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 600;
+            font-size: xx-large;
+            color-scheme: 100000;
+        }
+        p{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 300;
+            font-size: x-large;
+        }
+        .nama{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .sekolah{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .kelas{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .gender{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .Tgl{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .HP{
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        body{
+            background-image: linear-gradient(to right, #D60270, #9B4F96, #0038A8);
+         }
+    </style>
+    <form action="">
+    <table class="center">
+        <tr>
+            <td align="center">
+                <label for=""> <b class="nama"> Nama </b></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <label for=""> <b class="sekolah"> Asal Sekolah </b></label>
+                <select name="" id="">
+                    <option value="0"> ---- </option>
+                    <option value="1"> SMK 1 Negeri Semarang</option>
+                    <option value="2"> SMK 2 Negeri Semarang</option>
+                    <option value="3"> SMK 3 Negeri Semarang</option>
+                    <option value="4"> SMK 4 Negeri Semarang</option>
+                    <option value="5"> SMk 5 Negeri Semarang</option>
+                    <option value="6"> SMK 6 Negeri Semarang</option>
+                    <option value="7"> SMK 7 Negeri Semarang</option>
+                    <option value="8"> SMK 8 Negeri Semarang</option>
+                    <option value="9"> SMK 9 Neger-i Semarang</option>
+                    <option value="10">SMK 10 Negeri Semarang</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">    
+                <label for=""> <b class="kelas"> Kelas </b></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <label for="gndr"> <b class="gender"> Jenis Kelamin</b></label>
+                <select id="">
+                    <option value="--"> ---- </option>
+                    <option value="Laki-Laki"> Laki-Laki</option>
+                    <option value="Perempuan"> Perempuan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <label for=""> <b class="Tgl"> Tanggal Lahir</b></label>
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <label for=""> <b class="HP"> No. Handphone</b></label>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button type="submit" value="submit"> Submit </button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
